@@ -9,6 +9,7 @@ sap.ui.define([
 
         return Controller.extend("project1.controller.View1", {
             onInit: function () {
+                //Recent Change
                 var oModel = this.getOwnerComponent().getModel();
                 var oNote = oModel.bindContext('/FLEXIOM');
                 debugger;
